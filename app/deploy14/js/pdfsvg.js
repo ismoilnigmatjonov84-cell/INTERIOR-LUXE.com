@@ -25,7 +25,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 import { svgFromHTMLTemplate } from "./transformer.js";
 
-const domain = window.location.origin + "/app";
+const domain = window.location.origin + "/INTERIOR-LUXE.com/app";
 
 const template = fetch(`${domain}/template.txt`).then((response) => {
   return response.text();
@@ -42,7 +42,7 @@ export async function get_svg(svg) {
   let templates = [];
 
   templates.push({
-    title: `<div>План квартиры: <a href ="https://flat-planner.ru"> flat-planner.ru</a> </div> `,
+    title: `<div>Plan house: <a href ="https://ismoilnigmatjonov84-cell.github.io/INTERIOR-LUXE.com"> INTERIOR-LUXE.com</a> </div> `,
     pageNumber: `Лист ${pageNumber}`,
     mainSvg: svg,
     legend: (() => {
