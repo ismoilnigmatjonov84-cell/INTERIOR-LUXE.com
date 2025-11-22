@@ -1,0 +1,145 @@
+.pagination_comment {
+  margin-top:50px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  position: relative;
+  right: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  justify-content: center;
+  user-select: none;
+}
+.page_block{
+  display: flex;
+  max-width: 160px;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  user-select: none;
+}
+
+.pagination_page {
+  
+  text-align: center;
+  display: flex;
+  height: 32px;
+  margin:0 2.5px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 32px;
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  flex-direction: row;
+  user-select: none;
+  min-width: 32px;
+}
+.pagination_page_active:hover {
+  cursor: pointer;
+  
+}
+
+.pagination_page_active {
+  
+    color: #fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 32px;
+    margin:0 2.5px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height:1;
+    min-width: 32px;
+    user-select: none;
+    background:#55a3ff
+}
+
+.pagination_page:hover {
+    cursor: pointer;
+    color: #55a3ff;
+}
+
+.pagination_move_left {
+  font-size: 27px;
+  margin-right: 15px;
+  /* height: 50px; */
+  font-family: sans-serif;
+  line-height: 28px;
+  user-select: none;
+}
+
+.pagination_move_left:hover {
+    cursor: pointer;
+    color:#55A3FF;
+}
+
+.pagination_move_right {
+  font-size: 30px;
+  margin-left: 15px;
+  /* height: 50px; */
+  font-family: sans-serif;
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+  line-height: 26px;
+  user-select: none;
+}
+
+.pagination_page_last{
+  margin-left: 10px;
+}
+.pagination_page_last:hover{
+  cursor: pointer;
+  color:#55A3FF;
+}
+
+.pagination_move_right:hover{
+    cursor: pointer;
+    color:#55A3FF;
+}
+#block_page_hidden{
+  
+ 
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#first_page_hidden {
+  
+  margin-right: 5px;
+}
+
+#first_page_hidden:hover {
+  color:#64A02A;
+}
+
+#block_page_hidden:hover{
+  color:#64A02A;
+}
+
+.loader_image {
+  background-image: url("../img/loading-gif.gif");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+}
+
+@media (max-width: 1200px) { 
+  .pagination_comment {
+    margin-top: 30px;
+    margin-bottom: auto;
+  }
+}
+
+.pagination_move_left.is-disabled{color:#bdbfc2;pointer-events:none}
+.pagination_move_right.is-disabled{color:#bdbfc2;pointer-events:none}

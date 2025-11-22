@@ -1,0 +1,95 @@
+#comments-list #comments-list{padding-left:0}
+
+.a-comments{}
+.a-comment{margin-top:45px}
+.a-comment-header{margin-bottom:8px}
+.a-comment-author{color:#222831;margin-bottom:8px;font-size:20px;font-weight:700}
+.a-comment-time{font-size:16px}
+.a-comment-date{font-size:16px;margin-right:9px}
+.a-comment-target{margin-bottom:10px}
+.a-comment-target__text{font-size:16px}
+.a-comment-target__name{color:#4fa0ff;font-size:16px}
+.a-comment-body{line-height:1.8;font-size:18px;margin-bottom:15px}
+.a-comment-footer{display:flex}
+.a-comment-create_answer_button{display:flex;align-items:center;gap:9px;cursor:pointer}
+.a-comment-create_answer_button:hover .a-comment-create_answer_button__icon path{stroke:#4fa0ff}
+.a-comment-create_answer_button:hover .a-comment-create_answer_button__text{color:#4fa0ff}
+.a-comment-create_answer_button__icon{}
+.a-comment-create_answer_button__text{font-size:16px}
+.a-comment-more_answer_button{display:flex;align-items:center;gap:9px;margin-left:auto;cursor:pointer}
+.a-comment-more_answer_button:hover .a-comment-more_answer_button__icon path{stroke:#4fa0ff}
+.a-comment-more_answer_button:hover .a-comment-more_answer_button__text{color:#4fa0ff}
+.a-comment-more_answer_button.is-active .a-comment-more_answer_button__icon{transform:rotate(180deg)}
+.a-comment-more_answer_button__icon{transition:.2s}
+.a-comment-more_answer_button__text{font-size:16px}
+
+.a-comment-admin .a-comment-author{color:#2ea56c}
+
+.a-comment-lead{position:relative;z-index:1;background:#fff;padding:25px 65px;box-shadow: 0 5px 25px rgba(0, 0, 0, .05);border-bottom: 2px solid #4fa0ff;border-radius:5px}
+.a-comment-lead .a-comment-header{display:flex;flex-direction:column;gap:2px}
+.a-comment-lead .a-comment-create_answer_button__text{font-size:18px}
+
+.a-comment-secondary{margin-top:45px}
+.a-comment-secondary .a-comment-header{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 15px;margin-bottom:0}
+
+.a-answer{overflow:hidden;position:relative;padding-left:100px}
+.a-answer::before{position:absolute;top:0;right:0;left:0;content:'';background:#fff;height:15px}
+.a-answer .a-answer-section{position:relative}
+.a-answer .a-answer-section .a-comment::before{position:absolute;z-index:1;content:'';width:24px;height:40px;margin:-25px 0 0 -35px;border-left:1px solid #bfbfbf;border-bottom:1px solid #bfbfbf;border-bottom-left-radius:20px}
+.a-answer .a-answer-section > .a-answer-section{padding-left:40px}
+.a-answer > .a-answer-section:nth-child(n+2)::before{position:absolute;left:-35px;bottom:calc(100% + 5px);z-index:-1;content:'';background:#bfbfbf;width:1px;height:10000px}
+.a-answer > .a-answer-section .a-answer-section .a-comment:nth-child(n+2)::after{position:absolute;top:-5px;left:5px;bottom:0;z-index:-1;content:'';background:#bfbfbf;width:1px}
+.a-answer > .a-answer-section .a-answer-section .a-comment:last-of-type .a-comment-wrap{position:relative}
+.a-answer > .a-answer-section .a-answer-section .a-comment:last-of-type .a-comment-wrap::before{position:absolute;top:-5px;bottom:0;left:-40px;content:'';width:10px;background:#fff}
+
+.a-comment-loader{display:flex;align-items:center;gap:10px;background:0;font-size:18px;margin-top:35px;border:0;outline:0;cursor:pointer}
+.a-comment-loader.is-open .a-comment-loader__icon{transform:rotate(180deg)}
+.a-comment-loader:hover .a-comment-loader__text{color:#2d7bd7}
+.a-comment-loader:hover .a-comment-loader__icon path{stroke:#2d7bd7}
+.a-comment-loader__text{color:#4fa0ff;font-weight:500}
+.a-comment-loader__icon path{stroke:#4fa0ff;transition:.2s}
+
+@media screen and (max-width: 1199px) {
+    .a-comment-lead{padding:20px}
+    .a-answer{padding-left:55px}
+}
+
+@media screen and (max-width: 991px) {
+    .a-comment-author{font-size:16px}
+    .a-comment-body{font-size:16px}
+    .a-comment-create_answer_button__text{font-size:16px}
+    .a-comment-more_answer_button__text{font-size:16px}
+    .a-comment-loader{font-size:18px}
+}
+
+@media screen and (max-width: 575px) {
+    .a-comment-author{font-size:16px}
+    .a-comment-loader{font-size:16px}
+}
+
+#comments-form{margin:20px 0 10px!important}
+
+#comments-list .answer-form{display:block;margin:20px 0;padding:20px}
+#comments-list .answer-form *{margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
+#comments-list .answer-form-top{margin-bottom:20px}
+#comments-list .answer-form-bottom{overflow:hidden;border:1px solid #e0e1e2;border-radius:7px}
+#comments-list .answer-form-label{display:flex}
+#comments-list .answer-form-input{background:#fff;width:100%;height:50px;padding:15px;font-size:18px;border:1px solid #d8d8d9;border-radius:5px}
+#comments-list .answer-form-input::placeholder{font-size:inherit;font-weight:inherit}
+#comments-list .answer-form-textarea{resize:none;background:#fff;width:100%;height:130px;padding:15px;font-size:18px;border-top:0;border-right:0;border-left:0}
+#comments-list .answer-form-textarea::placeholder{font-size:inherit;font-weight:inherit}
+#comments-list .answer-form-action{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;background:#fff;padding:10px 10px 10px 25px;border-top:1px solid #d8d8d9}
+#comments-list .answer-form-action__counter{opacity:.4;font-size:14px}
+#comments-list .answer-form-action__submit{transition:.3s;background:#55a3ff;color:#fff;width:170px;height:40px;padding:0 32px;font-size:18px;font-weight:600;text-align:center;border-bottom:3px solid #2371cd;border-radius:4px}
+#comments-list .answer-form-action__submit:hover, .answer-form-action__submit:active{background:#2371cd}
+
+.answer-form-textarea:focus::-webkit-input-placeholder, .answer-form-input:focus::-webkit-input-placeholder {color:transparent}
+.answer-form-textarea:focus::-moz-placeholder, .answer-form-input:focus::-moz-placeholder {color:transparent}
+.answer-form-textarea:focus:-ms-input-placeholder, .answer-form-input:focus:-ms-input-placeholder {color:transparent}
+.answer-form-textarea:focus::placeholder, .answer-form-input:focus::placeholder {color:transparent}
+
+@media screen and (max-width: 767px) {
+    #comments-list .answer-form-action{padding:10px 15px}
+    #comments-list .answer-form-input{font-size:16px}
+    #comments-list .answer-form-textarea{font-size:16px}
+}

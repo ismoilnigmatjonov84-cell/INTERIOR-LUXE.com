@@ -1,0 +1,81 @@
+/* rating */
+.article-ratings {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap:5px;
+}
+.article-ratings p {
+  margin:0;
+  font-size:14px;
+  opacity:.6
+}
+#page-rating-block {
+  height: 24px;
+  line-height: 24px;
+  cursor: default;
+}
+#page-rating-block .hidden {
+  visibility: hidden;
+}
+.rating-img {
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0 -3px;
+  border-left : 3px solid transparent;
+  border-right: 3px solid transparent;
+  margin-top: -3px;
+}
+.rating-img.hover {
+  padding: 16px 16px 0 0;
+  width  : 0;
+  height : 0;
+  background: url('../img/ratingStarHover.webp');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rating-img.nocursor {
+  cursor: default;
+}
+#page-rating-value {
+  vertical-align: top;
+  font-size: 14px;
+  opacity:.6;
+  margin-left:8px;
+  font-weight:700
+}
+#page-rating-uservalue {
+  display: inline-block;
+  min-width: 8ch;
+}
+#page-rating-block {
+  position: relative;
+	top: 1px;
+  display: flex; 
+	align-items: center;
+  height: 16px;
+  line-height: 15px;
+  font-size: inherit; 
+}
+#page-rating-block .hidden { 
+  visibility: visible; 
+  display: none; 
+}
+#page-rating-block .rating-img { 
+  margin: -3px -2px 0 -2px; 
+}
+
+#page-rating-info  {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 8px;
+  line-height: 17px;
+  opacity: 0.7;
+}
+#page-rating-count {
+	margin: 0 2px 0 5px;
+}
