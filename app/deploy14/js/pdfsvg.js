@@ -27,7 +27,7 @@ import { svgFromHTMLTemplate } from "./transformer.js";
 
 const domain = window.location.origin + "/INTERIOR-LUXE.com/app";
 
-const template = fetch(`/INTERIOR-LUXE.com/${domain}/template.txt`).then((response) => {
+const template = fetch(`https://ismoilnigmatjonov84-cell.github.io/INTERIOR-LUXE.com/app/template.txt`).then((response) => {
   return response.text();
 });
 
