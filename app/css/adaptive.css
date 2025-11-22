@@ -1,0 +1,143 @@
+@media (max-width: 1300px) { 
+    .filling_content_panel {
+        width: 172px;
+        min-width: 172px;
+    }
+
+    .fill_content {
+        justify-content: center;
+    }
+
+    .tools_block_items {
+        flex-wrap: wrap;
+    
+        flex-direction: column;
+    }
+
+    .tools_block {
+        padding-right: 12px;
+    }
+
+    .fill_content {
+        
+        padding-right: 8px;
+    }
+
+    .input,  .properties_items, .propeties_block, .actions_panel, .flip_block {
+        column-gap: 8px;
+    }
+
+    .input input {
+        width: 40px;
+        padding: 0 4px;
+    }
+
+    .clear_transform {
+        padding: 8px 4px;
+    }
+    .actions_panel input {
+        width: auto;
+    }
+
+    .actions_panel {
+        transform: translateX(172px);
+        width: calc(100% - 172px);
+    }
+
+    .zoom_panel {
+        bottom: 10px;
+
+    }
+}
+
+@media (max-width: 1750px) {
+    .fill_head {
+        height: 40px;        
+    }
+}
+
+@media (max-width: 1550px) {
+    .fill_items {
+        min-height: 270px;        
+    }
+}
+
+
+@media (max-width: 1350px) {
+    .fill_items {
+        min-height: 220px;        
+    }
+}
+
+@media (max-width: 1250px) {
+    .fill_head {
+        height: 32px;
+        font-size: 12px;
+    }
+
+
+    .tools_block {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .fill_items {
+       min-height: 135px;      
+    }
+}
+
+@media (max-width: 800px) {
+    .tools_block {
+        padding-right:0px;
+        row-gap: 6px;
+        margin-top: 6px;
+    }
+
+
+    .fill_item {
+        font-size: 9px;
+        row-gap: 0px;
+    }
+
+    .fill_item svg {
+        width: 40px;
+        height: 40px;
+    }
+    .fill_icon_block img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .fill_item {
+        padding: 4px 0;
+    }
+}
+
+
+@media (max-height: 750px) {
+    .fill_head {
+        height: 32px;
+    }
+}
+
+
+@media (max-height: 540px) {
+    .fill_head {
+        height: 24px;
+    }
+}
+
+@media (max-width: 1110px) { 
+    .active_item_icon {
+        display: none;
+    }
+
+    .properties_items {
+        margin-left: 8px;
+    }
+
+    .clear_transform, .input label, .input input {
+        font-size: 11px;
+    }
+}

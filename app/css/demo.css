@@ -1,0 +1,136 @@
+@import url("fonts/inter_font.css");
+@import url("fonts/nunito_font.css");
+
+@font-face {
+  font-family: "MontBold";
+  src: url("../../ams_main_includes/fonts/Mont/Mont-HeavyDEMO.html") format("truetype");
+}
+
+@font-face {
+  font-family: "MontLight";
+  src: url("../../ams_main_includes/fonts/Mont/Mont-ExtraLightDEMO.html") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../../ams_main_includes/fonts/OpenSans/OpenSans-Regular.html") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../../ams_main_includes/fonts/OpenSans/OpenSans-Bold.html") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../../ams_main_includes/fonts/OpenSans/OpenSans-Light.html") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../../ams_main_includes/fonts/Roboto/RobotoLight/RobotoLight.html") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../ams_main_includes/fonts/Inter/Inter-Light.html") format("truetype");
+}
+
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100%;
+}
+
+.tools {
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px 0 rgba(199, 199, 199, 0.61);
+  justify-content: space-between;
+  padding: 5px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizontal {
+  display: box;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.vertical {
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top {
+  top: 20px;
+}
+.bottom {
+  bottom: 20px;
+}
+.left {
+  left: 20px;
+}
+.right {
+  right: 20px;
+}
+.tools [data-tool]:nth-child(1) {
+  margin-right: 5px;
+}
+
+.tools [data-tool] svg {
+  pointer-events: none;
+}
+
+
+
+.tools [data-tool] {
+  border-radius: 6px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease-in-out .2s;
+}
+.tools [data-tool].active {
+  background: #8b08f2;
+}
+.tools [data-tool].active svg {
+  fill: #fff;
+  stroke: #fff;
+}
+
+.sq_block {
+
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#customFileInput {
+  display: inline-block;
+
+  cursor: pointer;
+  background-image: url('../../app_dom3d_ver2/svg/upload.html');
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fileInput {
+  display: none;
+}
+
+.temp_fitches {
+  position: absolute;
+  left: 166px;
+}
+.changeView {
+  position: absolute;
+  z-index: 1000;
+  
+}
