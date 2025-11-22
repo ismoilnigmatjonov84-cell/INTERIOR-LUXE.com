@@ -1,8 +1,8 @@
 :root {
   --body-0: #4b4e56;
   --body-1: #7b7f8e;
-  --primary-0: #55a3ff;
-  --primary-1: #7db9ff;
+  --primary-0: #fcb531;
+  --primary-1: #fa1515f3;
   --primary-hover: #f4f9ff;
   --primary-stroke: #c4defd;
   --stroke-0: #adb1c1;
@@ -140,7 +140,7 @@ button#cancel:hover  {
 }
 
 .fill_items::-webkit-scrollbar-thumb {
-  background-color: #7db9ff;
+  background-color: #fa1515f3;
   border-radius: 17px;
 }
 
@@ -156,7 +156,7 @@ button#cancel:hover  {
 
 .fill_head path,
 .fill_head circle {
-  stroke: #55a3ff;
+  stroke: #fcb531;
 }
 
 .fill_head {
@@ -505,7 +505,7 @@ input[type="number"]:active {
 }
 
 .tools_block::-webkit-scrollbar-thumb {
-  background-color: #7db9ff;
+  background-color: #fa1515f3;
   border-radius: 17px;
 }
 
@@ -615,13 +615,13 @@ input[type="number"]:active {
 
 .variant:hover {
  
-  border-color: #7db9ff;
+  border-color: #fa1515f3;
   box-shadow: 0 0 4px 0 rgba(47, 143, 255, 0.3);
 }
 
 .variant:active {
 
-  border-color: #7db9ff;
+  border-color: #fa1515f3;
 
 }
 
@@ -745,7 +745,7 @@ width: 292px;
 
 
 .createRectRoom_btn#create path{
-  stroke: #55A3FF;
+  stroke: #fcb531;
 }
 
 .createRectRoom_btn#cancel {
@@ -756,7 +756,7 @@ width: 292px;
 
   border: 2px solid;
   border-color: #C4DEFD;
-  color: #55A3FF;
+  color: #fcb531;
 }
 
 .createRectRoom_btn#new_project_modal {
