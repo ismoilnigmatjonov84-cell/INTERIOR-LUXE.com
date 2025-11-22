@@ -1,0 +1,20 @@
+<svg width="107" height="29" viewBox="0 0 107 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M103.5 28L103.5 1L3.50001 0.999998L3.50001 28L103.5 28Z" fill="#ECEDF1" stroke="#303030" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.5 28L1.5 1L3.5 1L3.5 28L1.5 28Z" fill="white" stroke="#303030" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103.5 28L103.5 1L105.5 1L105.5 28L103.5 28Z" fill="white" stroke="#303030" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="6" y="4.5" width="4" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="12" y="4.5" width="4" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="18" y="4.5" width="4" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="0.545256" y="0.447992" width="3.89894" height="19.996" rx="0.5" transform="matrix(0.995043 -0.0994493 0.0954689 0.995432 22.102 4.34973)" fill="white" stroke="#303030"/>
+<rect x="0.558434" y="0.430736" width="3.89965" height="19.993" rx="0.5" transform="matrix(0.991431 -0.13063 0.125438 0.992101 27.6644 4.48284)" fill="white" stroke="#303030"/>
+<rect x="35" y="4.5" width="4" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="41" y="4.5" width="4" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="47" y="4.5" width="17" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="0.423063" y="0.569201" width="3.90015" height="19.991" rx="0.5" transform="matrix(0.988891 0.148645 -0.142764 0.989757 68.3379 3.94294)" fill="white" stroke="#303030"/>
+<rect x="0.486412" y="0.513777" width="3.89804" height="19.9997" rx="0.5" transform="matrix(0.99961 0.0279128 -0.026786 0.999641 73.6682 4.13578)" fill="white" stroke="#303030"/>
+<rect x="0.506313" y="0.493335" width="2.56922" height="19.9999" rx="0.5" transform="matrix(0.999912 -0.0132497 0.0127145 0.999919 78.7948 4.24479)" fill="white" stroke="#303030"/>
+<rect x="83" y="4.5" width="3" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="88" y="4.5" width="4" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="94" y="4.5" width="7" height="20" rx="0.5" fill="white" stroke="#303030"/>
+<rect x="0.547337" y="0.445337" width="22.5154" height="13.9968" rx="0.5" transform="matrix(0.994546 -0.1043 0.100129 0.994974 6.72841 8.32495)" fill="white" stroke="#303030"/>
+</svg>
